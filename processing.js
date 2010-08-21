@@ -3640,7 +3640,7 @@
           this.elements[0] =  old11 / d;
           this.elements[3] = -old10 / d;
           this.elements[1] = -old01 / d;
-          this.elements[1] =  old00 / d;
+          this.elements[4] =  old00 / d;
           this.elements[2] = (old01 * old12 - old11 * old02) / d;
           this.elements[5] = (old10 * old02 - old00 * old12) / d;
           return true;
