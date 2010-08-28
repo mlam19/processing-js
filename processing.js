@@ -3630,7 +3630,7 @@
       },
       invert: function() {
         var d = this.determinant();
-        if ( Math.abs( d ) > PConstants.FLOAT_MIN ) {
+        if ( Math.abs( d ) > PConstants.MIN_FLOAT ) {
           var old00 = this.elements[0];
           var old01 = this.elements[1];
           var old02 = this.elements[2];
